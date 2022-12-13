@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="16px" viewBox="0 0 20 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>wifi</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Material/Android/Status-bar-content-light" transform="translate(-14.000000, -4.000000)">
+            <g id="wifi" transform="translate(14.000000, 4.000000)">
+                <polygon id="bounds" points="2 0 18 0 18 16 2 16"></polygon>
+                <path d="M10,1 C13.3872942,1 16.5123517,2.12276889 19.0233159,4.01645006 L10,15 L0.977389046,4.01591844 C3.48823315,2.12255876 6.61302275,1 10,1 Z" id="Shape" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

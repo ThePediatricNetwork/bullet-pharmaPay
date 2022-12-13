@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="16px" viewBox="0 0 36 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>time</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="Helvetica" font-size="14" font-weight="normal" opacity="0.9">
+        <g id="Material/Android/Status-bar-content-light" transform="translate(-74.000000, -4.000000)" fill="#FFFFFF">
+            <g id="time" transform="translate(74.000000, 4.000000)">
+                <text id="12:30">
+                    <tspan x="0.965820312" y="14">12:30</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

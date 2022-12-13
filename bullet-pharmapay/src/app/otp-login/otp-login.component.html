@@ -1,1 +1,12 @@
-<p>otp-login works!</p>
+<div class="page">
+    <h1 class="logo">Doctor</h1>
+    <h6 class="mobnumber">OTP</h6>
+    <form [formGroup]="numberForm" class="number">
+        <textarea (change)="keyPress($event)" required type="text" formControlName="phonenumber" class="form-control mobile_number"columns="5" name="phonenumber" 
+        maxlength="6" autofocus> </textarea>
+    <div ngIf="submitted && f.phonenumber.errors" class="invalid-feedback"></div>
+    <div ngIf="f.phonenumber.errors.required">Phone number is required </div>
+    <div *ngIf="f['phonenumber'].errors">Phone number must be at least 10 numbers </div>
+    </form>
+</div>
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>cellular</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Material/Android/Status-bar-content-light" transform="translate(-35.000000, -4.000000)">
+            <g id="cellular" transform="translate(35.000000, 4.000000)">
+                <polygon id="bounds" points="0 0 16 0 16 16 0 16"></polygon>
+                <polygon id="Shape" fill="#FFFFFF" points="0 15 14 15 14 1"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
