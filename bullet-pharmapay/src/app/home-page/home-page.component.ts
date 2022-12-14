@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-home-page',
@@ -9,13 +11,17 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 export class HomePageComponent {
   numberForm!: FormGroup;
   submitted = false;
-  constructor(private formBuilder: FormBuilder) { }
+  constructor(private formBuilder: FormBuilder, private router: Router) { }
   keyPress(event: any) {
-    console.log(event)
+    const number = event.target.value;
+    console.log(number.length)
     const pattern = /[0-9\+\-\ ]/;
     let inputChar = String.fromCharCode(event.charCode);
     if (event.keyCode != 8 && !pattern.test(inputChar)) {
       event.preventDefault();
+    }
+    if(number.length == 10){
+      this.router.navigateByUrl('/otp')
     }
   }
 

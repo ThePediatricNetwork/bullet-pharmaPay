@@ -1,0 +1,51 @@
+.page {
+    background-color: #1E22F3;
+}
+
+.logo{
+    color:#FFFFFF;
+    font-size: 4rem;
+    margin-top: 190px;
+    font-style: italic;
+    margin-left: 50px;
+}
+
+.clinks{
+    color: #e8e6e6;
+    font-size: 14px;
+    font-style: Helvetica;
+    font-weight: 100;
+   line-height: 45(3.214);
+   margin-left: 50px;
+   margin-top: 40px;
+   letter-spacing: 3px;
+}
+
+.dropdown-header{
+color: #FFFFFF !important;
+}
+
+.dropdown-menu{
+    display: block;
+    margin-top: 20px;
+    margin-left: 19px;
+    width: 347px;
+    color: #FFFFFF !important;
+    background: none;
+    border: none;
+}
+
+.dropdown-divider{
+    color: #e8e6e6;
+}
+
+.form-select{
+    height: 131px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    margin-top: 14px;
+    width: 295px;
+    margin-left: 30px;
+}

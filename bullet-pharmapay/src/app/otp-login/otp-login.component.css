@@ -10,7 +10,7 @@
     margin-left: 50px;
 }
 
-.mobnumber{
+.otpnumber{
     color: #e8e6e6;
     font-size: 14px;
     font-style: Helvetica;
@@ -25,15 +25,15 @@
     width: 250px;
 }
 .mobile_number{
-    margin-left: 50px;   
-    font-size:28px;
+    margin-left: 29px;
     background-color: #1E22F3;
-    width: 100%;
-    border: none;
+    width: 92%;
     margin-top: 10px;
-    color:white;
-    font-size: 50px;
+    color: white;
+    font-size: 46px;
     font-weight: bold;
+    border: none;
+    box-shadow: none;
     letter-spacing: 0.65ch;
 }
 

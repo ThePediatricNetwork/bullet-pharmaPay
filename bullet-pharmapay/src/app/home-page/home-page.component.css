@@ -1,5 +1,27 @@
+
 .page {
     background-color: #1E22F3;
+}
+
+@media screen and (max-width: 1366px) {
+.page {
+    background-color: #1E22F3;
+}
+
+}
+
+.mobnumber{
+    margin-left: 40px;
+    font-size: 28px;
+    background-color: #1E22F3;
+    width: 121%;
+    margin-top: 10px;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 0.65ch;
+    outline: none;
+    box-shadow: none;
 }
 
 .logo{
@@ -12,7 +34,7 @@
 
 .mobnumber{
     color: #e8e6e6;
-    font-size: 14px;
+    font-size: 9px;
     font-style: Helvetica;
     font-weight: 100;
    line-height: 45(3.214);
@@ -24,10 +46,10 @@
     width: 250px;
 }
 .mobile_number{
-    margin-left: 50px;   
+    margin-left: 38px;   
     font-size:28px;
     background-color: #1E22F3;
-    width: 100%;
+    width: 106%;
     border: none;
     margin-top: 10px;
     color:white;
@@ -35,10 +57,17 @@
     font-weight: bold;
     letter-spacing: 0.65ch;
     outline: none;
+    box-shadow: none;
 }
 
 textarea:focus{
     outline: none;
     border:none
 
+}
+
+.check {
+    color: #e8e6e6;
+    font-size: 9px;
+    margin-left: 52px;
 }
