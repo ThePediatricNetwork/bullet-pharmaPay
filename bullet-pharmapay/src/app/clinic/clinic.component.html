@@ -8,7 +8,7 @@
           </ng-container>
     </table> -->
    <div> 
-    <select class="form-select" multiple aria-label="multiple select example">
+    <select (click)="onSave($event)" class="form-select" multiple aria-label="multiple select example" >
         <option value="'0">The Minute Medical</option>
         <option disabled>──────────────────────</option>
         <option value="1">First Priority Medical</option>

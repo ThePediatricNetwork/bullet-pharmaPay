@@ -22,7 +22,7 @@ numberForm!: FormGroup;
       event.preventDefault();
     }
     if(number.length == 5){
-      console.log('wwwwwwwwwwwwww')
+      // console.log('wwwwwwwwwwwwww')
       this.router.navigateByUrl('/clinic')
     }
   }

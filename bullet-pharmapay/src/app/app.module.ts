@@ -8,19 +8,24 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { OtpLoginComponent } from './otp-login/otp-login.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ClinicComponent } from './clinic/clinic.component';
+import { EnterAmtComponent } from './enter-amt/enter-amt.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HomePageComponent,
     OtpLoginComponent,
-    ClinicComponent
+    ClinicComponent,
+    EnterAmtComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+   
   ],
+  
   providers: [],
   bootstrap: [AppComponent]
 })
